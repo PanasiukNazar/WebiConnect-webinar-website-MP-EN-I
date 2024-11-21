@@ -3684,7 +3684,14 @@ hr {
 
 .hero h1 {
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 772px) {
+    .hero h1 {
+        font-size: 30px;
+    }
 }
 
 .hero p {
