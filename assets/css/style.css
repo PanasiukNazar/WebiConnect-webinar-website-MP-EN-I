@@ -3673,13 +3673,22 @@ hr {
 }
 
 /* line 37, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
-.slider-area {
+.hero {
     margin-top: -1px;
     background-image: url(../img/hero/h1_hero.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.hero p {
+    color: #fff;
 }
 
 /* line 44, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
